@@ -1,0 +1,29 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:uvicorn.error:Started server process [20556]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+DEBUG:root:ERROR: Admin register - '(1062, "Duplicate entry 'peaaa@aaw11cm' for key 'admin.email'")'
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:uvicorn.error:Started server process [19836]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:root:Admin register - '(1062, "Duplicate entry 'peaaa@aaw11cm' for key 'admin.email'")'
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:uvicorn.error:Started server process [3076]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:root:Admin register - '(1062, "Duplicate entry 'peaaa@aaw11cm' for key 'admin.email'")'
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:uvicorn.error:Started server process [19952]
+INFO:uvicorn.error:Waiting for application startup.
+INFO:uvicorn.error:Application startup complete.
+ERROR:root:Admin register - '(1062, "Duplicate entry 'peaaa@aaw11cm' for key 'admin.email'")'
+ERROR:root:Admin register - '(1062, "Duplicate entry 'peaaa@aaw11cm' for key 'admin.email'")'

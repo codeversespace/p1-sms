@@ -1,0 +1,7 @@
+//Create admin table
+
+CREATE TABLE `sms_bkd_p1`.`admin` ( `id` INT NOT NULL AUTO_INCREMENT , `email` INT(30) NOT NULL , `phone` CHAR(10) NOT NULL , `password` CHAR(60) NOT NULL , `created_on` INT NOT NULL DEFAULT CURRENT_TIMESTAMP , `created_by` TEXT NOT NULL , `account_status` CHAR(8) NOT NULL , PRIMARY KEY (`id`), UNIQUE (`email`), UNIQUE (`phone`)) ENGINE = MyISAM;
+
+--INSERT to admin
+
+INSERT INTO `admin` (`id`, `email`, `phone`, `password`, `created_on`, `created_by`, `account_status`) VALUES (NULL, 'sayedabdullah11@gmail.com', '9151516251', 'this_is_password', CURRENT_TIMESTAMP, 'primary_account', 'active');
